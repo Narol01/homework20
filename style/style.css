@@ -1,0 +1,41 @@
+.btn{
+    margin:10px
+}
+button{
+    transition: background-color  0.5s;
+    border:1px solid black;
+}
+
+button:hover{
+background-color: gray;
+border:3px solid red;
+}
+
+#target{
+    margin-left: 10px;
+    width: 350px;
+}
+
+form{
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid black;
+    max-width: 300px;
+}
+
+input::placeholder{
+    color:coral
+}
+input:focus{
+    outline: 3px solid coral;
+}
+
+.randomBtn{
+    margin: 10px;
+    height: 150px;
+    width: 150px;
+}
+
+.randomBtn:hover{
+    background: none;
+}
